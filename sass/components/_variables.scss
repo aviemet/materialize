@@ -132,8 +132,13 @@ $dropdown-item-height: 50px !default;
 /* 9. Fonts
    ========================================================================== */
 
-$roboto-font-path: "../fonts/roboto/" !default;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700|Roboto+Slab:100,300,400|Roboto:100,300,400,500,700');
 
+$font-family-sans-serif: "Roboto", sans-serif !default;
+$font-family-serif: "Roboto Slab", serif !default;
+$font-family-monospace: "Roboto Mono" !default;
+
+$body-font-family: $font-family-sans-serif !default;
 
 /* 10. Forms
    ========================================================================== */
